@@ -6,34 +6,34 @@ Unzip the folders `data.zip` and `output.zip`. Make sure the project has the fol
 
 
 > data/ \
-&ensp; full_set/ \
-&ensp;&ensp; ... \
-&ensp; test_set/ \
-&ensp;&ensp; bb_groundtruth_non_empty.csv \
-&ensp;&ensp; bb_groundtruth.csv \
-&ensp;&ensp; ... \
-&ensp; ark
+____full_set/ \
+_______... \
+____test_set/ \
+________bb_groundtruth_non_empty.csv \
+_______bb_groundtruth.csv \
+_______... \
+____ark
 \
 \
 output/ \
-&ensp; full_set/ \
-&ensp; global/ \
-&ensp;&ensp; extraction/ \
-&ensp;&ensp;&ensp; ... \
-&ensp;&ensp; segmentation.csv \
-&ensp; test_set/ \
-&ensp;&ensp; global/ \
-&ensp;&ensp;&ensp; draft/ \
-&ensp;&ensp;&ensp;&ensp; ... \
-&ensp;&ensp;&ensp; extraction/ \
-&ensp;&ensp;&ensp;&ensp; ... \
-&ensp;&ensp;&ensp; segmentation.csv \
-&ensp;&ensp; local/ \
-&ensp;&ensp;&ensp; draft/ \
-&ensp;&ensp;&ensp;&ensp; ... \
-&ensp;&ensp;&ensp; extraction/ \
-&ensp;&ensp;&ensp;&ensp; ... \
-&ensp;&ensp;&ensp; segmentation.csv
+____full_set/ \
+____global/ \
+_______extraction/ \
+__________... \
+_______segmentation.csv \
+____test_set/ \
+_______global/ \
+__________draft/ \
+_____________... \
+__________extraction/ \
+_____________... \
+__________segmentation.csv \
+_______local/ \
+__________draft/ \
+_____________... \
+__________extraction/ \
+_____________... \
+__________segmentation.csv
 \
  \
 detections.csv \
